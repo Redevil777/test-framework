@@ -1,0 +1,19 @@
+dependencies {
+    compile("org.codehaus.groovy:groovy-all:2.3.3")
+    compile("org.springframework:spring-context:3.2.9.RELEASE") { transitive = true }
+    compile("org.springframework:spring-web:3.2.9.RELEASE")
+    compile("org.springframework:spring-jms:3.2.9.RELEASE")
+    compile("org.spockframework:spock-core:0.7-groovy-2.0")
+    compile("org.springframework:spring-test:3.2.9.RELEASE")
+    compile("org.apache.kafka:kafka_2.10:0.9.0.1")
+    compile("javax:javaee-api:7.0")
+    compile("xmlunit:xmlunit:1.5")
+    compile("log4j:log4j:1.2.17")
+}
+
+
+jar {
+    baseName = "middleware-integration-tests"
+    version = "0.1-SNAPSHOT"
+}
+
