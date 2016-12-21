@@ -1,4 +1,0 @@
-rootProject.name = 'test-framework'
-include 'core'
-include 'test-open-weather'
-

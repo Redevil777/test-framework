@@ -1,8 +1,0 @@
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    testCompile("org.spockframework:spock-spring:0.7-groovy-2.0")
-    testCompile("com.athaydes:spock-reports:1.1")
-    testCompile project(':core')
-    testCompile group: 'org.skyscreamer', name: 'jsonassert', version: '1.4.0'
-
-}
